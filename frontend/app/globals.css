@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #212b36;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* NHS Design System colour palette */
+  --color-nhs-blue:          #005EB8;
+  --color-nhs-blue-dark:     #003d78;
+  --color-nhs-blue-light:    #d4e8f8;
+  --color-nhs-green:         #007F3B;
+  --color-nhs-green-light:   #cfe8da;
+  --color-nhs-red:           #D5281B;
+  --color-nhs-red-light:     #fde8e7;
+  --color-nhs-yellow:        #FFB81C;
+  --color-nhs-yellow-light:  #fff3d0;
+  --color-nhs-pale:          #f0f4f5;
+  --color-nhs-warm-grey:     #425563;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+}
+
+/* ---- Print: hide app chrome, show only briefing ---- */
+@media print {
+  aside { display: none !important; }
+  body, html { background: white !important; }
+  .print-hide { display: none !important; }
+  main { padding: 0 !important; }
+  .max-w-5xl { max-width: none !important; }
+  section { break-inside: avoid; }
+  * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+}
