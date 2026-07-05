@@ -1,0 +1,999 @@
+﻿
+> full_log.txt:1:Collecting anthropic==0.105.2 (from -r 
+requirements.txt (line 1))
+  full_log.txt:2:  Using cached 
+anthropic-0.105.2-py3-none-any.whl.metadata (3.2 kB)
+> full_log.txt:3:Collecting spacy==3.7.5 (from -r 
+requirements.txt (line 2))
+  full_log.txt:4:  Using cached spacy-3.7.5.tar.gz (1.3 MB)
+  full_log.txt:5:  Installing build dependencies: started
+> full_log.txt:6:  Installing build dependencies: finished 
+with status 'error'
+> full_log.txt:7:pip :   error: subprocess-exited-with-error
+  full_log.txt:8:At line:1 char:1
+  full_log.txt:9:+ pip install -r requirements.txt *> 
+full_log.txt
+  full_log.txt:10:+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+> full_log.txt:11:    + CategoryInfo          : 
+NotSpecified: (  error: subpr 
+> full_log.txt:12:   ocess-exited-with-error:String) [], 
+RemoteException
+> full_log.txt:13:    + FullyQualifiedErrorId : 
+NativeCommandError
+  full_log.txt:14: 
+  full_log.txt:15:  
+  full_log.txt:16:  pip subprocess to install build 
+dependencies did not run 
+  full_log.txt:17:successfully.
+  full_log.txt:18:  exit code: 1
+  full_log.txt:19:  
+  full_log.txt:20:  [573 lines of output]
+  full_log.txt:21:  Ignoring numpy: markers 'python_version 
+< "3.9"' don't 
+  full_log.txt:22:match your environment
+> full_log.txt:23:  Collecting setuptools
+  full_log.txt:24:    Using cached 
+  
+full_log.txt:25:setuptools-83.0.0-py3-none-any.whl.metadata 
+(6.6 kB)
+> full_log.txt:26:  Collecting cython<3.0,>=0.25
+  full_log.txt:27:    Using cached 
+  full_log.txt:28:Cython-0.29.37-py2.py3-none-any.whl.metada
+ta (3.1 kB)
+> full_log.txt:29:  Collecting cymem<2.1.0,>=2.0.2
+  full_log.txt:30:    Using cached 
+  full_log.txt:31:cymem-2.0.13-cp313-cp313-win_amd64.whl.met
+adata (9.9 kB)
+> full_log.txt:32:  Collecting preshed<3.1.0,>=3.0.2
+  full_log.txt:33:    Using cached 
+  full_log.txt:34:preshed-3.0.13-cp313-cp313-win_amd64.whl.m
+etadata (5.4 kB)
+> full_log.txt:35:  Collecting murmurhash<1.1.0,>=0.28.0
+  full_log.txt:36:    Using cached 
+  full_log.txt:37:murmurhash-1.0.15-cp313-cp313-win_amd64.wh
+l.metadata (2.3 
+  full_log.txt:38:kB)
+> full_log.txt:39:  Collecting thinc<8.3.0,>=8.2.2
+  full_log.txt:40:    Using cached thinc-8.2.5.tar.gz (193 
+kB)
+  full_log.txt:41:    Installing build dependencies: started
+  full_log.txt:42:    Installing build dependencies: 
+finished with status 
+> full_log.txt:43:'error'
+> full_log.txt:44:    error: subprocess-exited-with-error
+  full_log.txt:45:  
+  full_log.txt:46:    pip subprocess to install build 
+dependencies did not 
+  full_log.txt:47:run successfully.
+  full_log.txt:48:    exit code: 1
+  full_log.txt:49:  
+  full_log.txt:50:    [541 lines of output]
+  full_log.txt:51:    Ignoring numpy: markers 
+'python_version < "3.9"' don't 
+  full_log.txt:52:match your environment
+> full_log.txt:53:    Collecting setuptools
+  full_log.txt:54:      Using cached 
+  
+full_log.txt:55:setuptools-83.0.0-py3-none-any.whl.metadata 
+(6.6 kB)
+> full_log.txt:56:    Collecting cython<3.0,>=0.25
+  full_log.txt:57:      Using cached 
+  full_log.txt:58:Cython-0.29.37-py2.py3-none-any.whl.metada
+ta (3.1 kB)
+> full_log.txt:59:    Collecting murmurhash<1.1.0,>=1.0.2
+  full_log.txt:60:      Using cached 
+  full_log.txt:61:murmurhash-1.0.15-cp313-cp313-win_amd64.wh
+l.metadata (2.3 
+  full_log.txt:62:kB)
+> full_log.txt:63:    Collecting cymem<2.1.0,>=2.0.2
+  full_log.txt:64:      Using cached 
+  full_log.txt:65:cymem-2.0.13-cp313-cp313-win_amd64.whl.met
+adata (9.9 kB)
+> full_log.txt:66:    Collecting preshed<3.1.0,>=3.0.2
+  full_log.txt:67:      Using cached 
+  full_log.txt:68:preshed-3.0.13-cp313-cp313-win_amd64.whl.m
+etadata (5.4 kB)
+> full_log.txt:69:    Collecting blis<0.8.0,>=0.7.8
+  full_log.txt:70:      Using cached blis-0.7.11.tar.gz 
+(2.9 MB)
+  full_log.txt:71:      Installing build dependencies: 
+started
+  full_log.txt:72:      Installing build dependencies: 
+finished with status 
+  full_log.txt:73:'done'
+  full_log.txt:74:      Getting requirements to build 
+wheel: started
+  full_log.txt:75:      Getting requirements to build 
+wheel: finished with 
+> full_log.txt:76:status 'error'
+> full_log.txt:77:      error: subprocess-exited-with-error
+  full_log.txt:78:  
+  full_log.txt:79:      Getting requirements to build wheel 
+did not run 
+  full_log.txt:80:successfully.
+  full_log.txt:81:      exit code: 1
+  full_log.txt:82:  
+  full_log.txt:83:      [507 lines of output]
+  full_log.txt:84:  
+> full_log.txt:85:      Error compiling Cython file:
+  full_log.txt:86:      
+  full_log.txt:87:------------------------------------------
+------------------
+  full_log.txt:88:      ...
+  full_log.txt:89:      #
+  full_log.txt:90:      # See __init__.cython-30.pxd for 
+the real Cython 
+  full_log.txt:91:header
+  full_log.txt:92:      #
+  full_log.txt:93:  
+> full_log.txt:94:      # intentionally created compiler 
+error that only 
+  full_log.txt:95:triggers on Cython < 3.0.0
+  full_log.txt:96:      DEF err = int('Build aborted: the 
+NumPy Cython 
+  full_log.txt:97:headers require Cython 3.0.0 or newer.')
+  full_log.txt:98:                  ^
+  full_log.txt:99:      
+  full_log.txt:100:-----------------------------------------
+-------------------
+  full_log.txt:101:  
+  full_log.txt:102:      
+C:\Users\tanej\AppData\Local\Temp\pip-build-env-lzd2vk
+  full_log.txt:103:6u\overlay\Lib\site-packages\numpy\__init
+__.pxd:12:13: 
+> full_log.txt:104:Error in compile-time expression: 
+ValueError: invalid 
+  full_log.txt:105:literal for int() with base 10: 'Build 
+aborted: the NumPy 
+  full_log.txt:106:Cython headers require Cython 3.0.0 or 
+newer.'
+  full_log.txt:107:  
+  full_log.txt:108:  
+> full_log.txt:109:      Error compiling Cython file:
+  full_log.txt:110:      
+  full_log.txt:111:-----------------------------------------
+-------------------
+  full_log.txt:112:      ...
+  full_log.txt:113:      from .cy cimport const_double1d_t, 
+const_double2d_t
+  full_log.txt:114:  
+  full_log.txt:115:      import numpy
+  full_log.txt:116:  
+  full_log.txt:117:  
+  full_log.txt:118:      def axpy(const_reals1d_ft A, 
+double scale=1., 
+  full_log.txt:119:np.ndarray out=None):
+  full_log.txt:120:                                         
+          ^
+  full_log.txt:121:      
+  full_log.txt:122:-----------------------------------------
+-------------------
+  full_log.txt:123:  
+  full_log.txt:124:      blis\py.pyx:12:46: 'ndarray' is 
+not a type identifier
+  full_log.txt:125:  
+> full_log.txt:126:      Error compiling Cython file:
+  full_log.txt:127:      
+  full_log.txt:128:-----------------------------------------
+-------------------
+  full_log.txt:129:      ...
+  full_log.txt:130:          else:
+  full_log.txt:131:              B = NULL
+> full_log.txt:132:              raise TypeError("Unhandled 
+fused type")
+  full_log.txt:133:  
+  full_log.txt:134:  
+  full_log.txt:135:      def batch_axpy(reals2d_ft A, 
+reals1d_ft B, np.ndarray 
+  full_log.txt:136:out=None):
+  full_log.txt:137:                                         
+       ^
+  full_log.txt:138:      
+  full_log.txt:139:-----------------------------------------
+-------------------
+  full_log.txt:140:  
+  full_log.txt:141:      blis\py.pyx:30:43: 'ndarray' is 
+not a type identifier
+  full_log.txt:142:  
+> full_log.txt:143:      Error compiling Cython file:
+  full_log.txt:144:      
+  full_log.txt:145:-----------------------------------------
+-------------------
+  full_log.txt:146:      ...
+  full_log.txt:147:  
+  full_log.txt:148:      def batch_axpy(reals2d_ft A, 
+reals1d_ft B, np.ndarray 
+  full_log.txt:149:out=None):
+  full_log.txt:150:          pass
+  full_log.txt:151:  
+  full_log.txt:152:  
+  full_log.txt:153:      def ger(const_reals2d_ft A, 
+const_reals1d_ft B, 
+  full_log.txt:154:double scale=1., np.ndarray out=None):
+  full_log.txt:155:                                         
+                   
+  full_log.txt:156:          ^
+  full_log.txt:157:      
+  full_log.txt:158:-----------------------------------------
+-------------------
+  full_log.txt:160:      blis\py.pyx:34:65: 'ndarray' is 
+not a type identifier
+  full_log.txt:161:  
+> full_log.txt:162:      Error compiling Cython file:
+  full_log.txt:163:      
+  full_log.txt:164:-----------------------------------------
+-------------------
+  full_log.txt:165:      ...
+  full_log.txt:166:              C = NULL
+> full_log.txt:167:              raise TypeError("Unhandled 
+fused type")
+  full_log.txt:168:  
+  full_log.txt:169:  
+  full_log.txt:170:      def gemm(const_reals2d_ft A, 
+const_reals2d_ft B,
+  full_log.txt:171:               np.ndarray out=None, bint 
+trans1=False, bint 
+  full_log.txt:172:trans2=False,
+  full_log.txt:173:              ^
+  full_log.txt:174:      
+  full_log.txt:175:-----------------------------------------
+-------------------
+  full_log.txt:176:  
+  full_log.txt:177:      blis\py.pyx:65:9: 'ndarray' is not 
+a type identifier
+  full_log.txt:178:  
+> full_log.txt:179:      Error compiling Cython file:
+  full_log.txt:180:      
+  full_log.txt:181:-----------------------------------------
+-------------------
+  full_log.txt:182:      ...
+  full_log.txt:183:              C = NULL
+> full_log.txt:184:              raise TypeError("Unhandled 
+fused type")
+  full_log.txt:185:  
+  full_log.txt:186:      def gemv(const_reals2d_ft A, 
+const_reals1d_ft B,
+  full_log.txt:187:              bint trans1=False, double 
+alpha=1., double 
+  full_log.txt:188:beta=1.,
+  full_log.txt:189:              np.ndarray out=None):
+  full_log.txt:190:             ^
+  full_log.txt:191:      
+  full_log.txt:192:-----------------------------------------
+-------------------
+  full_log.txt:193:  
+  full_log.txt:194:      blis\py.pyx:115:8: 'ndarray' is 
+not a type identifier
+  full_log.txt:195:  
+> full_log.txt:196:      Error compiling Cython file:
+  full_log.txt:197:      
+  full_log.txt:198:-----------------------------------------
+-------------------
+  full_log.txt:199:      ...
+  full_log.txt:200:  
+  full_log.txt:201:      def axpy(const_reals1d_ft A, 
+double scale=1., 
+  full_log.txt:202:np.ndarray out=None):
+  full_log.txt:203:          if const_reals1d_ft is 
+const_float1d_t:
+  full_log.txt:204:              if out is None:
+  full_log.txt:205:                  out = 
+numpy.zeros((A.shape[0],), 
+  full_log.txt:206:dtype='f')
+  full_log.txt:207:              B = <float*>out.data
+  full_log.txt:208:                 ^
+  full_log.txt:209:      
+  full_log.txt:210:-----------------------------------------
+-------------------
+  full_log.txt:211:  
+  full_log.txt:213:pointers of primitive types
+  full_log.txt:214:  
+> full_log.txt:215:      Error compiling Cython file:
+  full_log.txt:216:      
+  full_log.txt:217:-----------------------------------------
+-------------------
+  full_log.txt:218:      ...
+  full_log.txt:219:              B = <float*>out.data
+  full_log.txt:220:              return out
+  full_log.txt:221:          elif const_reals1d_ft is 
+const_double1d_t:
+  full_log.txt:222:              if out is None:
+  full_log.txt:223:                  out = 
+numpy.zeros((A.shape[0],), 
+  full_log.txt:224:dtype='d')
+  full_log.txt:225:              B = <double*>out.data
+  full_log.txt:226:                 ^
+  full_log.txt:227:      
+  full_log.txt:228:-----------------------------------------
+-------------------
+  full_log.txt:229:  
+  full_log.txt:230:      blis\py.pyx:21:12: Python objects 
+cannot be cast to 
+  full_log.txt:231:pointers of primitive types
+  full_log.txt:232:  
+> full_log.txt:233:      Error compiling Cython file:
+  full_log.txt:234:      
+  full_log.txt:235:-----------------------------------------
+-------------------
+  full_log.txt:236:      ...
+  full_log.txt:237:                      cy.NO_CONJUGATE, 
+cy.NO_CONJUGATE,
+  full_log.txt:238:                      A.shape[0], 
+B.shape[0],
+  full_log.txt:239:                      scale,
+  full_log.txt:240:                      &A[0,0], 1,
+  full_log.txt:241:                      &B[0], 1,
+  full_log.txt:242:                      <float*>out.data, 
+out.shape[1], 1)
+  full_log.txt:243:                     ^
+  full_log.txt:244:      
+  full_log.txt:245:-----------------------------------------
+-------------------
+  full_log.txt:246:  
+  full_log.txt:247:      blis\py.pyx:45:16: Python objects 
+cannot be cast to 
+  full_log.txt:248:pointers of primitive types
+  full_log.txt:249:  
+> full_log.txt:250:      Error compiling Cython file:
+  full_log.txt:251:      
+  full_log.txt:252:-----------------------------------------
+-------------------
+  full_log.txt:253:      ...
+  full_log.txt:254:      def ger(const_reals2d_ft A, 
+const_reals1d_ft B, 
+  full_log.txt:255:double scale=1., np.ndarray out=None):
+  full_log.txt:256:          if const_reals2d_ft is 
+const_float2d_t and 
+  full_log.txt:257:const_reals1d_ft is const_float1d_t:
+  full_log.txt:258:              if out is None:
+  full_log.txt:259:                  out = 
+numpy.zeros((A.shape[0], 
+  full_log.txt:260:B.shape[0]), dtype='f')
+  full_log.txt:261:              with nogil:
+  full_log.txt:262:                  cy.ger(
+  full_log.txt:263:                       ^
+  full_log.txt:264:      
+  full_log.txt:265:-----------------------------------------
+-------------------
+  full_log.txt:267:      blis\py.pyx:39:18: no suitable 
+method found
+  full_log.txt:268:  
+> full_log.txt:269:      Error compiling Cython file:
+  full_log.txt:270:      
+  full_log.txt:271:-----------------------------------------
+-------------------
+  full_log.txt:272:      ...
+  full_log.txt:273:                      cy.NO_CONJUGATE, 
+cy.NO_CONJUGATE,
+  full_log.txt:274:                      A.shape[0], 
+B.shape[0],
+  full_log.txt:275:                      scale,
+  full_log.txt:276:                      &A[0,0], 1,
+  full_log.txt:277:                      &B[0], 1,
+  full_log.txt:278:                      <double*>out.data, 
+out.shape[1], 1)
+  full_log.txt:279:                     ^
+  full_log.txt:280:      
+  full_log.txt:281:-----------------------------------------
+-------------------
+  full_log.txt:282:  
+  full_log.txt:283:      blis\py.pyx:57:16: Python objects 
+cannot be cast to 
+  full_log.txt:284:pointers of primitive types
+  full_log.txt:285:  
+> full_log.txt:286:      Error compiling Cython file:
+  full_log.txt:287:      
+  full_log.txt:288:-----------------------------------------
+-------------------
+  full_log.txt:289:      ...
+  full_log.txt:290:              return out
+  full_log.txt:291:          elif const_reals2d_ft is 
+const_double2d_t and 
+  full_log.txt:292:const_reals1d_ft is const_double1d_t:
+  full_log.txt:293:              if out is None:
+  full_log.txt:294:                  out = 
+numpy.zeros((A.shape[0], 
+  full_log.txt:295:B.shape[0]), dtype='d')
+  full_log.txt:296:              with nogil:
+  full_log.txt:297:                  cy.ger(
+  full_log.txt:298:                       ^
+  full_log.txt:299:      
+  full_log.txt:300:-----------------------------------------
+-------------------
+  full_log.txt:301:  
+  full_log.txt:302:      blis\py.pyx:51:18: no suitable 
+method found
+  full_log.txt:303:  
+> full_log.txt:304:      Error compiling Cython file:
+  full_log.txt:305:      
+  full_log.txt:306:-----------------------------------------
+-------------------
+  full_log.txt:307:      ...
+  full_log.txt:308:              if out is None:
+  full_log.txt:309:                  if beta == 0.:
+  full_log.txt:310:                      out = 
+numpy.empty((nM, nN), dtype='f')
+  full_log.txt:311:                  else:
+  full_log.txt:312:                      out = 
+numpy.zeros((nM, nN), dtype='f')
+  full_log.txt:313:              C = <float*>out.data
+  full_log.txt:314:                 ^
+  full_log.txt:315:      
+  full_log.txt:316:-----------------------------------------
+-------------------
+  full_log.txt:317:  
+  full_log.txt:318:      blis\py.pyx:82:12: Python objects 
+cannot be cast to 
+  full_log.txt:319:pointers of primitive types
+  full_log.txt:320:  
+> full_log.txt:321:      Error compiling Cython file:
+  full_log.txt:322:      
+  full_log.txt:323:-----------------------------------------
+-------------------
+  full_log.txt:324:      ...
+  full_log.txt:325:                      out = 
+numpy.empty((nM, nN), dtype='f')
+  full_log.txt:326:                  else:
+  full_log.txt:327:                      out = 
+numpy.zeros((nM, nN), dtype='f')
+  full_log.txt:328:              C = <float*>out.data
+  full_log.txt:329:              with nogil:
+  full_log.txt:330:                  cy.gemm(
+  full_log.txt:331:                        ^
+  full_log.txt:332:      
+  full_log.txt:333:-----------------------------------------
+-------------------
+  full_log.txt:334:  
+  full_log.txt:335:      blis\py.pyx:84:19: no suitable 
+method found
+  full_log.txt:336:  
+> full_log.txt:337:      Error compiling Cython file:
+  full_log.txt:338:      
+  full_log.txt:339:-----------------------------------------
+-------------------
+  full_log.txt:340:      ...
+  full_log.txt:341:                      C, out.shape[1], 1)
+  full_log.txt:342:              return out
+  full_log.txt:343:          elif const_reals2d_ft is 
+const_double2d_t:
+  full_log.txt:344:              if out is None:
+  full_log.txt:345:                  out = 
+numpy.zeros((A.shape[0], 
+  full_log.txt:346:B.shape[1]), dtype='d')
+  full_log.txt:347:              C = <double*>out.data
+  full_log.txt:348:                 ^
+  full_log.txt:349:      
+  full_log.txt:350:-----------------------------------------
+-------------------
+  full_log.txt:351:  
+  full_log.txt:352:      blis\py.pyx:97:12: Python objects 
+cannot be cast to 
+  full_log.txt:353:pointers of primitive types
+  full_log.txt:354:  
+> full_log.txt:355:      Error compiling Cython file:
+  full_log.txt:356:      
+  full_log.txt:357:-----------------------------------------
+-------------------
+  full_log.txt:358:      ...
+  full_log.txt:359:          elif const_reals2d_ft is 
+const_double2d_t:
+  full_log.txt:360:              if out is None:
+  full_log.txt:361:                  out = 
+numpy.zeros((A.shape[0], 
+  full_log.txt:362:B.shape[1]), dtype='d')
+  full_log.txt:363:              C = <double*>out.data
+  full_log.txt:364:              with nogil:
+  full_log.txt:365:                  cy.gemm(
+  full_log.txt:366:                        ^
+  full_log.txt:367:      
+  full_log.txt:368:-----------------------------------------
+-------------------
+  full_log.txt:369:  
+  full_log.txt:370:      blis\py.pyx:99:19: no suitable 
+method found
+  full_log.txt:371:  
+> full_log.txt:372:      Error compiling Cython file:
+  full_log.txt:373:      
+  full_log.txt:374:-----------------------------------------
+-------------------
+  full_log.txt:375:      ...
+  full_log.txt:376:                      A.shape[0], 
+A.shape[1],
+  full_log.txt:377:                      alpha,
+  full_log.txt:378:                      &A[0,0], 
+A.shape[1], 1,
+  full_log.txt:379:                      &B[0], 1,
+  full_log.txt:380:                      beta,
+  full_log.txt:381:                      <float*>out.data, 
+1)
+  full_log.txt:382:                     ^
+  full_log.txt:383:      
+  full_log.txt:384:-----------------------------------------
+-------------------
+  full_log.txt:385:  
+  full_log.txt:386:      blis\py.pyx:128:16: Python objects 
+cannot be cast to 
+  full_log.txt:387:pointers of primitive types
+  full_log.txt:388:  
+> full_log.txt:389:      Error compiling Cython file:
+  full_log.txt:390:      
+  full_log.txt:391:-----------------------------------------
+-------------------
+  full_log.txt:392:      ...
+  full_log.txt:393:                      A.shape[0], 
+A.shape[1],
+  full_log.txt:394:                      alpha,
+  full_log.txt:395:                      &A[0,0], 
+A.shape[1], 1,
+  full_log.txt:396:                      &B[0], 1,
+  full_log.txt:397:                      beta,
+  full_log.txt:398:                      <double*>out.data, 
+1)
+  full_log.txt:399:                     ^
+  full_log.txt:400:      
+  full_log.txt:401:-----------------------------------------
+-------------------
+  full_log.txt:402:  
+  full_log.txt:403:      blis\py.pyx:142:16: Python objects 
+cannot be cast to 
+  full_log.txt:404:pointers of primitive types
+  full_log.txt:405:  
+> full_log.txt:406:      Error compiling Cython file:
+  full_log.txt:407:      
+  full_log.txt:408:-----------------------------------------
+-------------------
+  full_log.txt:409:      ...
+  full_log.txt:410:      def ger(const_reals2d_ft A, 
+const_reals1d_ft B, 
+  full_log.txt:411:double scale=1., np.ndarray out=None):
+  full_log.txt:412:          if const_reals2d_ft is 
+const_float2d_t and 
+  full_log.txt:413:const_reals1d_ft is const_float1d_t:
+  full_log.txt:414:              if out is None:
+  full_log.txt:415:                  out = 
+numpy.zeros((A.shape[0], 
+  full_log.txt:416:B.shape[0]), dtype='f')
+  full_log.txt:417:              with nogil:
+  full_log.txt:418:                  cy.ger(
+  full_log.txt:419:                   ^
+  full_log.txt:420:      
+  full_log.txt:421:-----------------------------------------
+-------------------
+  full_log.txt:424:cannot be specialized
+  full_log.txt:425:  
+> full_log.txt:426:      Error compiling Cython file:
+  full_log.txt:427:      
+  full_log.txt:428:-----------------------------------------
+-------------------
+  full_log.txt:429:      ...
+  full_log.txt:430:              return out
+  full_log.txt:431:          elif const_reals2d_ft is 
+const_double2d_t and 
+  full_log.txt:432:const_reals1d_ft is const_double1d_t:
+  full_log.txt:433:              if out is None:
+  full_log.txt:434:                  out = 
+numpy.zeros((A.shape[0], 
+  full_log.txt:435:B.shape[0]), dtype='d')
+  full_log.txt:436:              with nogil:
+  full_log.txt:437:                  cy.ger(
+  full_log.txt:438:                   ^
+  full_log.txt:439:      
+  full_log.txt:440:-----------------------------------------
+-------------------
+  full_log.txt:441:  
+  full_log.txt:443:cannot be specialized
+  full_log.txt:444:  
+> full_log.txt:445:      Error compiling Cython file:
+  full_log.txt:446:      
+  full_log.txt:447:-----------------------------------------
+-------------------
+  full_log.txt:448:      ...
+  full_log.txt:449:                      out = 
+numpy.empty((nM, nN), dtype='f')
+  full_log.txt:450:                  else:
+  full_log.txt:451:                      out = 
+numpy.zeros((nM, nN), dtype='f')
+  full_log.txt:452:              C = <float*>out.data
+  full_log.txt:453:              with nogil:
+  full_log.txt:454:                  cy.gemm(
+  full_log.txt:455:                   ^
+  full_log.txt:456:      
+  full_log.txt:457:-----------------------------------------
+-------------------
+  full_log.txt:458:  
+  full_log.txt:459:      blis\py.pyx:84:14: Invalid use of 
+fused types, type 
+  full_log.txt:460:cannot be specialized
+  full_log.txt:461:  
+> full_log.txt:462:      Error compiling Cython file:
+  full_log.txt:463:      
+  full_log.txt:464:-----------------------------------------
+-------------------
+  full_log.txt:465:      ...
+  full_log.txt:466:          elif const_reals2d_ft is 
+const_double2d_t:
+  full_log.txt:467:              if out is None:
+  full_log.txt:468:                  out = 
+numpy.zeros((A.shape[0], 
+  full_log.txt:469:B.shape[1]), dtype='d')
+  full_log.txt:470:              C = <double*>out.data
+  full_log.txt:471:              with nogil:
+  full_log.txt:472:                  cy.gemm(
+  full_log.txt:473:                   ^
+  full_log.txt:474:      
+  full_log.txt:475:-----------------------------------------
+-------------------
+  full_log.txt:476:  
+  full_log.txt:477:      blis\py.pyx:99:14: Invalid use of 
+fused types, type 
+  full_log.txt:478:cannot be specialized
+  full_log.txt:479:  
+> full_log.txt:480:      Error compiling Cython file:
+  full_log.txt:481:      
+  full_log.txt:482:-----------------------------------------
+-------------------
+  full_log.txt:483:      ...
+  full_log.txt:484:                      cy.NO_CONJUGATE, 
+cy.NO_CONJUGATE,
+  full_log.txt:485:                      A.shape[0], 
+B.shape[0],
+  full_log.txt:486:                      scale,
+  full_log.txt:487:                      &A[0,0], 1,
+  full_log.txt:488:                      &B[0], 1,
+  full_log.txt:489:                      <float*>out.data, 
+out.shape[1], 1)
+  full_log.txt:490:                                ^
+  full_log.txt:491:      
+  full_log.txt:492:-----------------------------------------
+-------------------
+  full_log.txt:493:  
+  full_log.txt:494:      blis\py.pyx:45:27: Accessing 
+Python attribute not 
+  full_log.txt:495:allowed without gil
+  full_log.txt:496:  
+> full_log.txt:497:      Error compiling Cython file:
+  full_log.txt:498:      
+  full_log.txt:499:-----------------------------------------
+-------------------
+  full_log.txt:500:      ...
+  full_log.txt:501:                      cy.NO_CONJUGATE, 
+cy.NO_CONJUGATE,
+  full_log.txt:502:                      A.shape[0], 
+B.shape[0],
+  full_log.txt:503:                      scale,
+  full_log.txt:504:                      &A[0,0], 1,
+  full_log.txt:505:                      &B[0], 1,
+  full_log.txt:506:                      <float*>out.data, 
+out.shape[1], 1)
+  full_log.txt:507:                                         
+       ^
+  full_log.txt:508:      
+  full_log.txt:509:-----------------------------------------
+-------------------
+  full_log.txt:510:  
+  full_log.txt:511:      blis\py.pyx:45:43: Indexing Python 
+object not allowed 
+  full_log.txt:512:without gil
+  full_log.txt:513:  
+> full_log.txt:514:      Error compiling Cython file:
+  full_log.txt:515:      
+  full_log.txt:516:-----------------------------------------
+-------------------
+  full_log.txt:517:      ...
+  full_log.txt:518:                      cy.NO_CONJUGATE, 
+cy.NO_CONJUGATE,
+  full_log.txt:519:                      A.shape[0], 
+B.shape[0],
+  full_log.txt:520:                      scale,
+  full_log.txt:521:                      &A[0,0], 1,
+  full_log.txt:522:                      &B[0], 1,
+  full_log.txt:523:                      <float*>out.data, 
+out.shape[1], 1)
+  full_log.txt:524:                                         
+ ^
+  full_log.txt:525:      
+  full_log.txt:526:-----------------------------------------
+-------------------
+  full_log.txt:527:  
+  full_log.txt:528:      blis\py.pyx:45:37: Accessing 
+Python attribute not 
+  full_log.txt:529:allowed without gil
+  full_log.txt:530:  
+> full_log.txt:531:      Error compiling Cython file:
+  full_log.txt:532:      
+  full_log.txt:533:-----------------------------------------
+-------------------
+  full_log.txt:534:      ...
+  full_log.txt:535:                      cy.NO_CONJUGATE, 
+cy.NO_CONJUGATE,
+  full_log.txt:536:                      A.shape[0], 
+B.shape[0],
+  full_log.txt:537:                      scale,
+  full_log.txt:538:                      &A[0,0], 1,
+  full_log.txt:539:                      &B[0], 1,
+  full_log.txt:540:                      <double*>out.data, 
+out.shape[1], 1)
+  full_log.txt:541:                                 ^
+  full_log.txt:542:      
+  full_log.txt:543:-----------------------------------------
+-------------------
+  full_log.txt:544:  
+  full_log.txt:545:      blis\py.pyx:57:28: Accessing 
+Python attribute not 
+  full_log.txt:546:allowed without gil
+  full_log.txt:547:  
+> full_log.txt:548:      Error compiling Cython file:
+  full_log.txt:549:      
+  full_log.txt:550:-----------------------------------------
+-------------------
+  full_log.txt:551:      ...
+  full_log.txt:552:                      cy.NO_CONJUGATE, 
+cy.NO_CONJUGATE,
+  full_log.txt:553:                      A.shape[0], 
+B.shape[0],
+  full_log.txt:554:                      scale,
+  full_log.txt:555:                      &A[0,0], 1,
+  full_log.txt:556:                      &B[0], 1,
+  full_log.txt:557:                      <double*>out.data, 
+out.shape[1], 1)
+  full_log.txt:558:                                         
+        ^
+  full_log.txt:559:      
+  full_log.txt:560:-----------------------------------------
+-------------------
+  full_log.txt:561:  
+  full_log.txt:562:      blis\py.pyx:57:44: Indexing Python 
+object not allowed 
+  full_log.txt:563:without gil
+  full_log.txt:564:  
+> full_log.txt:565:      Error compiling Cython file:
+  full_log.txt:566:      
+  full_log.txt:567:-----------------------------------------
+-------------------
+  full_log.txt:568:      ...
+  full_log.txt:569:                      cy.NO_CONJUGATE, 
+cy.NO_CONJUGATE,
+  full_log.txt:570:                      A.shape[0], 
+B.shape[0],
+  full_log.txt:571:                      scale,
+  full_log.txt:572:                      &A[0,0], 1,
+  full_log.txt:573:                      &B[0], 1,
+  full_log.txt:574:                      <double*>out.data, 
+out.shape[1], 1)
+  full_log.txt:575:                                         
+  ^
+  full_log.txt:576:      
+  full_log.txt:577:-----------------------------------------
+-------------------
+  full_log.txt:578:  
+  full_log.txt:579:      blis\py.pyx:57:38: Accessing 
+Python attribute not 
+  full_log.txt:580:allowed without gil
+  full_log.txt:581:  
+> full_log.txt:582:      Error compiling Cython file:
+  full_log.txt:583:      
+  full_log.txt:584:-----------------------------------------
+-------------------
+  full_log.txt:585:      ...
+  full_log.txt:586:                      nM, nN, nK,
+  full_log.txt:587:                      alpha,
+  full_log.txt:588:                      &A[0,0], 
+A.shape[1], 1,
+  full_log.txt:589:                      &B[0,0], 
+B.shape[1], 1,
+  full_log.txt:590:                      beta,
+  full_log.txt:591:                      C, out.shape[1], 1)
+  full_log.txt:592:                                 ^
+  full_log.txt:593:      
+  full_log.txt:594:-----------------------------------------
+-------------------
+  full_log.txt:595:  
+  full_log.txt:596:      blis\py.pyx:92:28: Indexing Python 
+object not allowed 
+  full_log.txt:597:without gil
+  full_log.txt:598:  
+> full_log.txt:599:      Error compiling Cython file:
+  full_log.txt:600:      
+  full_log.txt:601:-----------------------------------------
+-------------------
+  full_log.txt:602:      ...
+  full_log.txt:603:                      nM, nN, nK,
+  full_log.txt:604:                      alpha,
+  full_log.txt:605:                      &A[0,0], 
+A.shape[1], 1,
+  full_log.txt:606:                      &B[0,0], 
+B.shape[1], 1,
+  full_log.txt:607:                      beta,
+  full_log.txt:608:                      C, out.shape[1], 1)
+  full_log.txt:609:                           ^
+  full_log.txt:610:      
+  full_log.txt:611:-----------------------------------------
+-------------------
+  full_log.txt:612:  
+  full_log.txt:613:      blis\py.pyx:92:22: Accessing 
+Python attribute not 
+  full_log.txt:614:allowed without gil
+  full_log.txt:615:  
+> full_log.txt:616:      Error compiling Cython file:
+  full_log.txt:617:      
+  full_log.txt:618:-----------------------------------------
+-------------------
+  full_log.txt:619:      ...
+  full_log.txt:620:                      A.shape[0], 
+B.shape[1], A.shape[1],
+  full_log.txt:621:                      alpha,
+  full_log.txt:622:                      &A[0,0], 
+A.shape[1], 1,
+  full_log.txt:623:                      &B[0,0], 
+B.shape[1], 1,
+  full_log.txt:624:                      beta,
+  full_log.txt:625:                      C, out.shape[1], 1)
+  full_log.txt:626:                                 ^
+  full_log.txt:627:      
+  full_log.txt:628:-----------------------------------------
+-------------------
+  full_log.txt:629:  
+  full_log.txt:630:      blis\py.pyx:107:28: Indexing 
+Python object not 
+  full_log.txt:631:allowed without gil
+  full_log.txt:632:  
+> full_log.txt:633:      Error compiling Cython file:
+  full_log.txt:634:      
+  full_log.txt:635:-----------------------------------------
+-------------------
+  full_log.txt:636:      ...
+  full_log.txt:637:                      A.shape[0], 
+B.shape[1], A.shape[1],
+  full_log.txt:638:                      alpha,
+  full_log.txt:639:                      &A[0,0], 
+A.shape[1], 1,
+  full_log.txt:640:                      &B[0,0], 
+B.shape[1], 1,
+  full_log.txt:641:                      beta,
+  full_log.txt:642:                      C, out.shape[1], 1)
+  full_log.txt:643:                           ^
+  full_log.txt:644:      
+  full_log.txt:645:-----------------------------------------
+-------------------
+  full_log.txt:646:  
+  full_log.txt:647:      blis\py.pyx:107:22: Accessing 
+Python attribute not 
+  full_log.txt:648:allowed without gil
+  full_log.txt:649:  
+> full_log.txt:650:      Error compiling Cython file:
+  full_log.txt:651:      
+  full_log.txt:652:-----------------------------------------
+-------------------
+  full_log.txt:653:      ...
+  full_log.txt:654:                      A.shape[0], 
+A.shape[1],
+  full_log.txt:655:                      alpha,
+  full_log.txt:656:                      &A[0,0], 
+A.shape[1], 1,
+  full_log.txt:657:                      &B[0], 1,
+  full_log.txt:658:                      beta,
+  full_log.txt:659:                      <float*>out.data, 
+1)
+  full_log.txt:660:                                ^
+  full_log.txt:661:      
+  full_log.txt:662:-----------------------------------------
+-------------------
+  full_log.txt:663:  
+  full_log.txt:664:      blis\py.pyx:128:27: Accessing 
+Python attribute not 
+  full_log.txt:665:allowed without gil
+  full_log.txt:666:  
+> full_log.txt:667:      Error compiling Cython file:
+  full_log.txt:668:      
+  full_log.txt:669:-----------------------------------------
+-------------------
+  full_log.txt:670:      ...
+  full_log.txt:671:                      A.shape[0], 
+A.shape[1],
+  full_log.txt:672:                      alpha,
+  full_log.txt:673:                      &A[0,0], 
+A.shape[1], 1,
+  full_log.txt:674:                      &B[0], 1,
+  full_log.txt:675:                      beta,
+  full_log.txt:676:                      <double*>out.data, 
+1)
+  full_log.txt:677:                                 ^
+  full_log.txt:678:      
+  full_log.txt:679:-----------------------------------------
+-------------------
+  full_log.txt:680:  
+  full_log.txt:681:      blis\py.pyx:142:28: Accessing 
+Python attribute not 
+  full_log.txt:682:allowed without gil
+  full_log.txt:686:      [1/2] Cythonizing blis\cy.pyx
+  full_log.txt:687:      [2/2] Cythonizing blis\py.pyx
+> full_log.txt:688:      Traceback (most recent call last):
+  full_log.txt:689:        File 
+"C:\Users\tanej\fresh-reviewer-test2\Lib\site-p
+  full_log.txt:690:ackages\pip\_vendor\pyproject_hooks\_in_p
+rocess\_in_process.
+  full_log.txt:691:py", line 389, in <module>
+  full_log.txt:692:          main()
+  full_log.txt:693:          ~~~~^^
+  full_log.txt:694:        File 
+"C:\Users\tanej\fresh-reviewer-test2\Lib\site-p
+  full_log.txt:695:ackages\pip\_vendor\pyproject_hooks\_in_p
+rocess\_in_process.
+  full_log.txt:696:py", line 373, in main
+  full_log.txt:697:          json_out["return_val"] = 
+  full_log.txt:698:hook(**hook_input["kwargs"])
+  full_log.txt:699:                                   
+  full_log.txt:700:~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  full_log.txt:701:        File 
+"C:\Users\tanej\fresh-reviewer-test2\Lib\site-p
+  full_log.txt:702:ackages\pip\_vendor\pyproject_hooks\_in_p
+rocess\_in_process.
+  full_log.txt:703:py", line 143, in 
+get_requires_for_build_wheel
+  full_log.txt:729:v-lzd2vk6u\overlay\Lib\site-packages\Cyth
+on\Build\Dependenci
+  full_log.txt:730:es.py", line 1238, in cythonize_one
+> full_log.txt:731:          raise CompileError(None, 
+pyx_file)
+> full_log.txt:732:      
+Cython.Compiler.Errors.CompileError: blis\py.pyx
+  full_log.txt:733:      [end of output]
+  full_log.txt:734:  
+> full_log.txt:735:      note: This error originates from a 
+subprocess, and is 
+  full_log.txt:736:likely not a problem with pip.
+> full_log.txt:737:    error: subprocess-exited-with-error
+  full_log.txt:738:  
+  full_log.txt:739:    Getting requirements to build wheel 
+did not run 
+  full_log.txt:740:successfully.
+  full_log.txt:741:    exit code: 1
+  full_log.txt:742:  
+  full_log.txt:743:    See above for output.
+  full_log.txt:744:  
+> full_log.txt:745:    note: This error originates from a 
+subprocess, and is 
+  full_log.txt:746:likely not a problem with pip.
+  full_log.txt:747:    [end of output]
+  full_log.txt:748:  
+> full_log.txt:749:    note: This error originates from a 
+subprocess, and is 
+  full_log.txt:750:likely not a problem with pip.
+> full_log.txt:751:  error: subprocess-exited-with-error
+  full_log.txt:752:  
+  full_log.txt:753:  pip subprocess to install build 
+dependencies did not run 
+  full_log.txt:754:successfully.
+  full_log.txt:755:  exit code: 1
+  full_log.txt:756:  
+  full_log.txt:757:  See above for output.
+  full_log.txt:758:  
+> full_log.txt:759:  note: This error originates from a 
+subprocess, and is 
+  full_log.txt:760:likely not a problem with pip.
+  full_log.txt:761:  [end of output]
+  full_log.txt:762:  
+> full_log.txt:763:  note: This error originates from a 
+subprocess, and is 
+  full_log.txt:764:likely not a problem with pip.
+  full_log.txt:765:
+  full_log.txt:766:[notice] A new release of pip is 
+available: 25.1.1 -> 26.1.2
+  full_log.txt:767:[notice] To update, run: python.exe -m 
+pip install 
+  full_log.txt:768:--upgrade pip
+> full_log.txt:769:error: subprocess-exited-with-error
+  full_log.txt:770:
+  full_log.txt:771:pip subprocess to install build 
+dependencies did not run 
+  full_log.txt:772:successfully.
+  full_log.txt:773:exit code: 1
+  full_log.txt:774:
+  full_log.txt:775:See above for output.
+  full_log.txt:776:
+> full_log.txt:777:note: This error originates from a 
+subprocess, and is 
+  full_log.txt:778:likely not a problem with pip.
+
+
