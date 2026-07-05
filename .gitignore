@@ -12,3 +12,5 @@ pipeline/.pytest_cache/
 
 pipeline/*.txt
 pipeline/test_extraction_real.py
+
+pipeline/venv/
