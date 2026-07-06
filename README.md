@@ -134,12 +134,18 @@ pipeline/
 docker-compose.yml         — one-command static-viewer orchestration
 ```
 
+## Screencast
+
+A 2.5-minute walkthrough of the system (static viewer, contradiction
+detection, and the live standalone pipeline) is available at:
+[VIDEO URL - add once uploaded]
+
 ## Citation
 
 If you use this system or approach in your work, please cite:
 
 ```
-[EMNLP 2026 citation — added on acceptance]
+[Citation details will be added upon paper acceptance]
 ```
 
 ## License
@@ -148,4 +154,5 @@ MIT License. See `LICENSE`.
 
 ## Contact
 
-[Your name / institution]
+Harshit Taneja
+University of Birmingham, United Kingdom
