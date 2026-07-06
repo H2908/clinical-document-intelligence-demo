@@ -24,8 +24,8 @@ Requires [Docker](https://www.docker.com/products/docker-desktop/) and
 Docker Compose (bundled with Docker Desktop).
 
 ```bash
-git clone <this-repo-url>
-cd <this-repo>
+git clone https://github.com/H2908/clinical-document-intelligence-demo
+cd https://github.com/H2908/clinical-document-intelligence-demo
 docker-compose up
 ```
 
