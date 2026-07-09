@@ -148,7 +148,7 @@ docker-compose.yml         - one-command static-viewer orchestration
 
 A 2.5-minute walkthrough of the system (static viewer, contradiction
 detection, and the live standalone pipeline) is available at:
-**https://youtu.be/5UiT2DVlx1Q**
+**https://youtu.be/GC7b05SQ_SU**
 
 ## Citation
 
@@ -161,14 +161,3 @@ If you use this system or approach in your work, please cite:
 ## License
 
 MIT License. See `LICENSE`.
-
-## Authors
-
-Harshit Taneja — University of Birmingham, United Kingdom
-Laraib Hasan — [affiliation to be confirmed]
-Mohammed Bahja — University of Birmingham, United Kingdom
-
-## Contact
-
-Harshit Taneja
-University of Birmingham, United Kingdom
